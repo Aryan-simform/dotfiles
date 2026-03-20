@@ -1,0 +1,7 @@
+# Neovim junk
+nvim/.local/
+nvim/.cache/
+nvim/.git/
+
+# OS
+.DS_Store
