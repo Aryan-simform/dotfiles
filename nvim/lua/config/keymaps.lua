@@ -20,3 +20,11 @@ vim.keymap.set("n", "<leader>k", function()
     focus = false,
   })
 end, { desc = "Show diagnostic (wrapped)" })
+
+vim.keymap.set("n", "<leader>xl", vim.diagnostic.setloclist, {
+  desc = "Diagnostics to loclist",
+})
+
+vim.keymap.set("n", "<leader>xq", vim.diagnostic.setqflist, {
+  desc = "Diagnostics to quickfix",
+})
